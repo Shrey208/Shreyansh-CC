@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+:root{
+  --primary-color: whitesmoke;
+  --body-color: #003049;
+}
+
+body {
+  margin: 0;
+  background-color: var(--body-color) ;
+  font-family: 'Brush Script MT', cursive;
+}
+
+code {
+  font-family: 'Courier New',
+    monospace;
+}
+
+.card-style-student {
+  background-color: #eae2b7;
+  margin-top: 1rem;
+  width: 570px;
+  padding : 10px;
+  margin-left: 30px;
+  font-family: 'Brush Script MT', cursive !important;
+}
+.card-style-mentor{
+  background-color: #fcbf49 !important;
+  margin-top: 1rem;
+  width: 570px;
+  margin-left: 2rem;
+}
+.form-student{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+.table-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 2rem !important;
+}
+.addMentorForm{
+  min-width: 70vh;
+  min-height: 60vh;
+}
