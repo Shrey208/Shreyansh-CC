@@ -32,8 +32,8 @@ export const AddMentorModal = ({ open, handleClose }) => {
       body:JSON.stringify(data)
     }).then(response=>response.json())
     .then((res)=>console.log(res));
-
     handleClose()
+    window.location.reload()
     }
   return (
     <Dialog open={open} onClose={handleClose} maxWidth="x2" height="x2">

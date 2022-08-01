@@ -48,6 +48,7 @@ const Student = () => {
     setStudentName("");
     setMentorName("");
     setDuration("");
+    window.location.reload()
   }
   return (
     <Card className="card-style-student" sx={{ }}>
