@@ -39,7 +39,7 @@ export const BookingTable = () => {
             .then((data) => setRows(data))
     }, [])
     return (
-        <Card className="card-style-mentor" variant="outlined" sx={{ minHeight: 275 }}>
+        <Card className="card-style-mentor" variant="outlined" sx={{ }}>
             <CardHeader title="Bookings Table" style={{ textAlign: 'left', marginLeft: '10px', marginBottom: '-1rem', fontFamily: "'Brush Script MT', cursive" }} />
             <Table style={{ maxWidth: '500px' }}>
                 <TableHead>
