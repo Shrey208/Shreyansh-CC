@@ -10,11 +10,6 @@ import {
     TableCell,TablePagination
 } from "@mui/material";
 
-/* const rows = [
-    { bookingID: 1, mentorName: "ABC", fTime: "13:30:00", tTime: "15:00:00", studentrName: "SMK" },
-    { bookingID: 2, mentorName: "ABC", fTime: "13:30:00", tTime: "15:00:00", studentrName: "SMK" },
-      { bookingID: 3, mentorName: "ABC", fTime: "13:30:00", tTime: "15:00:00", studentrName: "SMK" }
- ];*/
 
 export const BookingTable = () => {
     const [rows, setRows] = React.useState([]);

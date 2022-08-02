@@ -14,7 +14,6 @@ export const AddMentorModal = ({ open, handleClose }) => {
   const handleChange1 = (newValue) => {
     settTime(newValue);
   };
-  //console.log((fTime.getHours()+':'+fTime.getMinutes()+':'+'00').toString());
 
   const data={
     "name": name,
@@ -22,7 +21,6 @@ export const AddMentorModal = ({ open, handleClose }) => {
     "tto": ((tTime.getHours()<10? `0${tTime.getHours()}` : tTime.getHours())+':'+(tTime.getMinutes()<10? `0${tTime.getMinutes()}` : tTime.getMinutes())+':'+'00').toString()
   }
   const handleMentorAdd= ()=>{
-    //console.log(JSON.stringify(body));
     fetch('http://localhost:5000/addMentorSlot',{
       method:'POST',
       headers:{

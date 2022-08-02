@@ -34,7 +34,6 @@ const Student = () => {
     "duration": duration.toString()
   }
   const handleBook = () => {
-    //console.log(JSON.stringify(data));
     fetch('http://localhost:5000/tryBooking',{
       method:'POST',
       headers:{
